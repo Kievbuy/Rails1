@@ -7,11 +7,7 @@ end
 
 # MY GEMS
 
-gem 'sprockets-rails', :require => 'sprockets/railtie'
-
 gem 'bootstrap', '~> 4.0.0.beta'
-
-gem 'jquery-rails'
 
 #===============================
 

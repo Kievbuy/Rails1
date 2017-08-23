@@ -166,7 +166,6 @@ DEPENDENCIES
   puma (~> 3.0)
   rails (~> 5.0.5)
   sass-rails (~> 5.0)
-  sprockets-rails
   sqlite3
   turbolinks (~> 5)
   tzinfo-data

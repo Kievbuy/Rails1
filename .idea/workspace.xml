@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="4f86a154-1ac4-4baa-8c45-29bb95229230" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/RailsFirst.iml" afterPath="$PROJECT_DIR$/.idea/RailsFirst.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -12,6 +13,9 @@
       <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+=======
+    <list default="true" id="c9d1afbe-58a8-45df-8d6a-13a2c079c771" name="Default" comment="" />
+>>>>>>> Stashed changes
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +95,11 @@
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
+<<<<<<< Updated upstream
               <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+=======
+              <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+>>>>>>> Stashed changes
               <folding />
             </state>
           </provider>
@@ -169,10 +177,18 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+<<<<<<< Updated upstream
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="920" />
     <option name="width" value="675" />
     <option name="height" value="849" />
+=======
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="1230" />
+    <option name="y" value="3" />
+    <option name="width" value="675" />
+    <option name="height" value="1033" />
+>>>>>>> Stashed changes
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -355,10 +371,14 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< Updated upstream
     <option name="totallyTimeSpent" value="22831000" />
+=======
+    <option name="totallyTimeSpent" value="23276000" />
+>>>>>>> Stashed changes
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14605543" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -768,7 +788,11 @@
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
+<<<<<<< Updated upstream
           <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+=======
+          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+>>>>>>> Stashed changes
           <folding />
         </state>
       </provider>
