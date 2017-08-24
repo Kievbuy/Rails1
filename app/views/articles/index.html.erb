@@ -3,5 +3,6 @@
 <% @articles.each do |article| %>.
     <h2><%= article.title %></h2>
     <p><%= article.text %></p>
+    <p><%= link_to 'Show', articles_path(article)  %></p>
     <hr>
 <% end %>
