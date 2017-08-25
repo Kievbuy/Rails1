@@ -8,6 +8,7 @@ end
 # MY GEMS
 
 gem 'bootstrap', '~> 4.0.0.beta'
+gem 'bootstrap_form'
 
 #===============================
 
