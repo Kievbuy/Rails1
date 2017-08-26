@@ -2,16 +2,28 @@
 
 <p><%= @article.text %></p>
 
+<div style="max-width: 400px">
+
 <%= form_for ([@article, @article.comments.build]) do |f| %>
     <p>
       <%= f.label :author %> <br>
-      <%= f.text_field :author %>
+      <%= f.text_field :author, class: 'form-control' %>
     </p>
     <p>
       <%= f.label :body %> <br>
-      <%= f.text_area :body %>
+      <%= f.text_area :body, class: 'form-control' %>
     </p>
     <p>
-      <%= f.submit %>
+      <%= f.submit class: 'btn btn-block' %>
     </p>
+<% end %>
+</div>
+
+<br>
+<p class="h2">Comments:</p>
+<% @comments.each do |comment| %>
+    <h5>Author: <span style="color:grey;"><%= comment.author %></span></h5>
+    <small style="color:grey;">Comment: <%= comment.created_at.localtime.strftime('%d/%m/%Y %H:%M') %></small>
+    <p><%= comment.body %></p>
+    <hr>
 <% end %>
