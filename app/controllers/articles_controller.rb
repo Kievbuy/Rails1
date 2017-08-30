@@ -1,5 +1,5 @@
 class ArticlesController < ApplicationController
-  before_filter :authenticate_user!, :only => [:new, :create, :edit, :destroy]
+  before_filter :authenticate_user!, :only => [:new, :create, :edit, :delete]
 
   def index
     @articles = Article.order('created_at DESC')
@@ -37,10 +37,13 @@ class ArticlesController < ApplicationController
   
   def destroy
     @article = Article.find(params[:id])
-    if @article.destroy
+    if current_user == @article.user
+      if @article.destroy
       redirect_to articles_path
-    else
-      render action: 'index'
+      else
+        render action: 'index'
+      end
+      
     end
   end
   
